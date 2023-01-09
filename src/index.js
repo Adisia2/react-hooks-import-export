@@ -1,5 +1,12 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import ColoradoStateParks from "./ColoradoStateParks";
+import whoseHouse from "./houses/whoseHouse";
+import Hufflepuff from "./houses/Hufflepuff";
+import * as GryffFunctions from "./houses/Gryffindor";
 
-ReactDOM.render(<ColoradoStateParks />, document.getElementById("root"));
+export default function Hogwarts() {
+  return (
+    <div>
+      <HooflePoof />
+    </div>
+  );
+}
